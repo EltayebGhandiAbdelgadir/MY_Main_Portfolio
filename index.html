@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eltayeb Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/06d9a94a51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgs/Anime-Logo-Transparent.png" class="logo" width="120px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineering</p>
+                <h1>Hi, I'm <span>Eltayeb</span><br>Ghandi From Sudan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------about----------------------- -->
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/My new design.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I'm Eltayeb, a software engineering student at Lovely Professional University. Passionate about technology, I enjoy exploring AI, machine learning, and cybersecurity. My academic and project experiences have equipped me with strong programming and problem-solving skills. I look forward to contributing to the tech industry by developing impactful software solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Cloud-dev</span><br>Developing Cloud based Systems</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents"id='experience'>
+                        <ul>
+                            <li><span>2024 - Current</span><br>- Developing Cloud based Systems<br>- Web app Development</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027</span><br>Lovely Professional University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------services----------------------- -->
+ <div id="services">
+    <div class="container">
+        <div class="sub-title">My Services</div>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    I can develop modren resbonsive website, with the best UI/UX, besed on the market
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h2>Cloud Engineering</h2>
+                <p>
+                    I have the ability to develop cloud based systems
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            
+        </div>
+    </div>
+ </div>
+
+<!-- -------------------------portfolio================= -->
+   <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imgs/png1.png">
+                    <div class="layer">
+                        <h3>Semon Game</h3>
+                        <p>
+                            Game that I developed it to increase the memory of the mind.
+                        </p>
+                        <a href="https://eltayebghandiabdelgadir.github.io/simon_game/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imgs/Screenshot 2024-07-07 091500.png">
+                    <div class="layer">
+                        <h3>Drum Game</h3>
+                        <p>
+                            Game that designed to have fun.
+                        </p>
+                        <a href="https://eltayebghandiabdelgadir.github.io/Drum/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imgs/SE20_bot_pic.jpg">
+                    <div class="layer">
+                        <h3>Telegram bot</h3>
+                        <p>
+                            Bot that to help cse student to find PDFs.
+                        </p>
+                        <a href="https://github.com/EltayebGhandiAbdelgadir/SE20_telegram_bot"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/EltayebGhandiAbdelgadir?tab=repositories" class="btn">See more</a>
+        </div>
+   </div>
+
+<!-- --------------------------contact------------------ -->
+
+   <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> altybghandi@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9779-444-814</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/a.l.tayeb_ghandi/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/eltayeb-ghandi-49347b23a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/EltayebGhandiAbdelgadir"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="imgs/My_CV.pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row=16 placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Eltayeb Ghandi <i class="fa-solid fa-heart"></i></p>
+        </div>
+   </div>
+
+
+   <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidmenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidmenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidmenu.style.right="-200px";
+        }
+    </script>
+
+    <!-- ---------------the google sheets doc ------------------------- -->
+    
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzYsaB5kv2duFDQvFGOQy_4pNkoo5oXPgSJxj8_M4mYh-EDuhA516zMr7FD-6sAzOl85g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
